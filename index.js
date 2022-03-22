@@ -3499,6 +3499,9 @@ app.get("/", (req, res) => {
     pokedex,
   });
 });
-app.get("/detalhes", (req, res) => {
-  res.render("detalhes.ejs");
+app.get("/detalhes/:id", (req, res) => {
+  const pokemonAtual = pokedex.filter((element) => element.id == req.params.id);
+  res.render("detalhes.ejs", {
+    pokemonAtual,
+  });
 });

@@ -13,7 +13,7 @@
   <body>
     <main>
       <% pokedex.forEach(element => { %>
-      <a href="goo">
+      <a href="/detalhes/<%= element.id %> ">
         <div class="card-container">
           <div class="header-card">
             <div class="pokename"><%= element.name %></div>
