@@ -1,9 +1,23 @@
 # Projeto Pokedex Semana 2 - BlueTech
 
 ## Stacks
-JavaScript;
-CSS3;
-HTML5;
-Express;
-Node.js;
-Nodemon;
+<ul>
+  <li>
+    JavaScript;
+  </li>
+  <li>
+    CSS3;
+  </li>
+  <li>
+    HTML5;
+  </li>
+  <li>
+    Express;
+  </li>
+  <li>
+    Node.js;
+  </li>
+  <li>
+    Nodemon;
+  </li>
+</ul>
